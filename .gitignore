@@ -1,0 +1,6 @@
+.idea/
+*.iml
+./calico
+./calico-ipam
+./install-cni.sh
+./calico.conf.default

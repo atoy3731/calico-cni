@@ -1,0 +1,32 @@
+resources:
+
+  # CALICO-IPAM
+  - url: "https://rancher-dsop-dependencies.nyc3.digitaloceanspaces.com/calico-cni/calico-ipam"
+    filename: "calico-ipam"
+    validation:
+      type: "sha256"
+      value: "fa7207095870554b7196967499ed75ae38f625c4f5b64f85262651f1e9a64ad7"
+
+  # CALICO
+  - url: "https://rancher-dsop-dependencies.nyc3.digitaloceanspaces.com/calico-cni/calico"
+    filename: "calico"
+    validation:
+      type: "sha256"
+      value: "8b0e16455f6d5cac53f2153b8be6dc8908c8ecdfa44d213f60c826f1b8148df0"
+
+  # INSTALL-CNI.SH
+  - url: "https://rancher-dsop-dependencies.nyc3.digitaloceanspaces.com/calico-cni/install-cni.sh"
+    filename: "install-cni.sh"
+    validation:
+      type: "sha256"
+      value: "575315e05f8791a67fdba866f7669e8be5df9b14ae65162fd33512d41398191c"
+
+  # CALICO.CONF.DEFAULT
+  - url: "https://rancher-dsop-dependencies.nyc3.digitaloceanspaces.com/calico-cni/calico.conf.default"
+    filename: "calico.conf.default"
+    validation:
+      type: "sha256"
+      value: "72a280968a22e6c0b8f0cb69b5da933f37321354a4e03b5e652e853528a7c2d3"
+
+
+
